@@ -1,7 +1,8 @@
 title: "A Polyglot's Blog"
 author: "Kiran Gosu"
-description: "I am a technology agnostic software engineer. I use this space to write what I feel could be shared."
+description: "From a technology agnostic software engineer, using this space to write to share the learning."
 baseurl: "/blog"
+
 # Email / Social media user names used by the minima theme:
 # All of these are optional and can be removed or commented out
 email: "kirankumar.gosu@gmail.com"
