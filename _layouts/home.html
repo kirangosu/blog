@@ -1,0 +1,30 @@
+---
+layout: 10_template
+---
+    <div class="post-content e-content" itemprop="articleBody">
+        {{ content }}
+        <hr/>
+        <br/>
+        <h3 class="post-list-heading">Posts</h3>
+
+        {% for tag in site.tags %}
+            <ul>
+                {% for post in tag[1] %}
+                    <ul class="post-list">
+                        <li>
+                            <span class="post-meta">{{ post.date | date: "%b %d, %Y" }}</span>
+                            <h3>
+                                <a class="post-link" href="{{site.baseurl}}{{ post.url }}"> {{ post.title }}
+                                </a>
+                            </h3>
+                        </li>
+                    </ul>                    
+                {% endfor %}
+            </ul>
+        {% endfor %}
+        <hr/>
+        <br/>
+        <div>
+            <p class="rss-subscribe">subscribe <a href="/blog/feed.xml">via RSS</a></p>
+        </div>
+    </div>

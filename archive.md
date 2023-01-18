@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Blog Archive
+order: 2
 ---
 
 {% for tag in site.tags %}
