@@ -1,6 +1,6 @@
 ---
 layout: post
-tag: Intro
+tag: banter
 ---
 ## Hello World
 
