@@ -17,7 +17,13 @@ layout: 00_whole
         <div class="trigger">
             {% assign pages = site.pages | sort:"order"  %}
             {% for p in pages %}
-                <a class="page-link" href={{site.baseurl}}{{p.url}}>{{p.title}}</a>    
+                {% if p.layout == 'page' %}
+                    {% if p.tag == 'mastersite' %}
+                        <a class="page-link" href="http://kirangosu.com">{{p.title}}</a>
+                    {% else %}
+                        <a class="page-link" href={{site.baseurl}}{{p.url}}>{{p.title}}</a>
+                    {% endif %}
+                {% endif %}
             {% endfor %}
         </div>
       </nav>

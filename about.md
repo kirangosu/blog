@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-order: 10
+order: 40
 ---
 Welcome to my blog. 
 I am a technology agnostic software engineer. I work hard to keep myself updated with the latest technology brews. 

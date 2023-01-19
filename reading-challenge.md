@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Reading Challenge
-order: 3
+order: 20
 ---
 
 <hr/>
