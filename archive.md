@@ -8,7 +8,8 @@ order: 10
   <h3>{{ tag[0] }}</h3>
   <ul>
     {% for post in tag[1] %}
-      <li><a href="{{site.baseurl}}{{ post.url }}">{{ post.date | date: "%B %Y" }} - {{ post.title }}</a></li>
+      <li><span class="post-meta">{{ post.date | date: "%b %d, %Y" }} - </span>
+      <a href="{{site.baseurl}}{{ post.url }}"> {{ post.title }}</a></li>
     {% endfor %}
   </ul>
 {% endfor %}
