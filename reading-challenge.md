@@ -12,8 +12,10 @@ Dhruv and I planned to take up reading challenge this year, 2023. As part of the
 Start Date | Finish Date | Book Name | Author | Reader |
 --- | --- | --- | --- |--- |
 01/01/2023 |  | Harry Potter and the Philosopher’s Stone | J.K. Rowling | Dhruv |
-01/01/2023| 19/01/2023 |George and the ship of time | Lucy Hawking | Kiran |
+01/01/2023 | 19/01/2023 |George and the ship of time | Lucy Hawking | Kiran |
 06/01/2023 | 06/01/2023 | Paddington: The Story of the Movie | Jeonne Willis | Dhruv |
 07/01/2023 | 17/01/2023 | Matilda | Roald Dahl | Dhruv |
 13/01/2023 | 16/01/2023 | Hilo: Saving the whole wide world	| Judd Winick | Dhruv |
 18/01/2023 | 18/01/2023 | Hilo: The Boy who Crashed Into Earth | Judd Winick | Dhruv |
+19/01/2023 | 20/01/2023 | Cliffhanger | Jaqueline Wilson | Dhruv |
+20/01/2023 |  | Harry Potter and the Philosopher’s Stone | J.K. Rowling | Kiran |
