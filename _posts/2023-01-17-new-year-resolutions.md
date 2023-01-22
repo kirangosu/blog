@@ -1,7 +1,12 @@
 ---
 layout: post
-tag: banter
+tags: banter
+cat: post
+date: 2023-01-17
+excerpt_separator: <!--more-->
 ---
+On 31-Dec-2022, I made a list of promises for the upcoming year. Let me check if I keep them up.
+<!--more-->
 ## New Year Resolutions
 
 This isn't new. I, or perhaps we all, pick some new year resolutions, towards the end of every year. Working on  them isn't as easy as they are picked. It took lot many years for me to get this wisdom 😁. 

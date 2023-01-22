@@ -1,6 +1,8 @@
 ---
 layout: post
-tag: banter
+tags: banter
+type: post
+date: 2023-01-16
 ---
 ## Hello World
 

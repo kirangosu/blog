@@ -1,27 +1,24 @@
 ---
 layout: 10_template
 ---
+<link href="/blog/css/override.css" rel="stylesheet" type="text/css">
+
     <div class="post-content e-content" itemprop="articleBody">
         {{ content }}
         <hr/>
-        <br/>
-        <h3 class="post-list-heading">Posts</h3>
+        <h3> Recent Posts </h3>
+        
+            {% for post in site.posts  limit:5 %}
+                <ul class="post-list">
+                    <li>
+                        <span class="post-meta">{{ post.date | date: "%b %d, %Y" }}</span>
+                        
+                        <a class="post-link" href="{{site.baseurl}}{{post.url}}"> {{post.title}} </a>
+                        <span class="post-excerpt"> {{ post.excerpt }}</span>
+                    </li>
+                </ul>
+            {% endfor %}
 
-        {% for tag in site.tags %}
-            <ul>
-                {% for post in tag[1] %}
-                    <ul class="post-list">
-                        <li>
-                            <span class="post-meta">{{ post.date | date: "%b %d, %Y" }}</span>
-                            <h3>
-                                <a class="post-link" href="{{site.baseurl}}{{ post.url }}"> {{ post.title }}
-                                </a>
-                            </h3>
-                        </li>
-                    </ul>                    
-                {% endfor %}
-            </ul>
-        {% endfor %}
         <hr/>
         <br/>
         <div>
