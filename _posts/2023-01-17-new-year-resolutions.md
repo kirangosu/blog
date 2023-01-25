@@ -8,7 +8,7 @@ date: 2023-01-17
 
 This isn't new. I, or perhaps we all, pick some new year resolutions, towards the end of every year. Working on  them isn't as easy as they are picked. It took lot many years for me to get this wisdom 😁. 
 
-And since then, my resolutions were very simple. Like, having breakfast everyday was one my resolutions in the past. It sounded easy until I had to practise it. 
+And since then, my resolutions were very simple. Like, having breakfast everyday was one my resolutions in the past. It sounded easy until its practised.
 
 On 31-Dec-2022, I sat down and wrote some of my plans for the year 2023. I thought I would share them here too.
 
