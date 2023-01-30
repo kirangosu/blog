@@ -15,7 +15,7 @@ On 31-Dec-2022, I sat down and wrote some of my plans for the year 2023. I thoug
 
 <hr/>
 
-- [ ] Read 10 books - <span style="font-size:small;color:#76D7C4"> This is progressing well - <a href="{{site.baseurl}}/reading-challenge.html"> 1/10 </a> </span> 
+- [ ] Read 10 books - <span style="font-size:small;color:#76D7C4"> This is progressing well - <a href="{{site.baseurl}}/reading-challenge.html"> 2/10 </a> </span> 
 - [ ] Make an app
 - [ ] Program a sensor with Raspberry Pi Pico/Audrino
 - [ ] Light a lamp using solar energy
