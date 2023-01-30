@@ -3,6 +3,7 @@ layout: post
 tags: banter
 cat: post
 date: 2023-01-17
+excerpt_separator: <!--more-->
 ---
 ## New Year Resolutions
 

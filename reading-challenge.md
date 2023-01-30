@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Reading Challenge
-description: Son vs Dad
+description: Son vs. Dad
 order: 20
 ---
 
