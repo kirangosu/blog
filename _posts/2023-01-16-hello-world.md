@@ -3,6 +3,7 @@ layout: post
 tags: banter
 type: post
 date: 2023-01-16
+description: Well finally this is a start. This, the blog, is one of my new year resolutions in 2023. And here I am. 
 ---
 ## Hello World
 Well finally this is a start. This, the blog, is one of my new year resolutions in 2023. And here I am. 
