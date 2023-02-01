@@ -24,6 +24,8 @@
 
     {% if page.description %}
       <meta content="{{ page.description }}" property="og:description">
+    {% else if page.excerpt %}
+      <meta content="{{ page.excerpt }}" property="og:description">
     {% else %}
       <meta content="{{ site.description }}" property="og:description">
     {% endif %}
