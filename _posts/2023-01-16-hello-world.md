@@ -5,7 +5,6 @@ type: post
 date: 2023-01-16
 ---
 ## Hello World
-
 Well finally this is a start. This, the blog, is one of my new year resolutions in 2023. And here I am. 
 
 A theory, ahem, *wink wink*, says that a quantum of significant magnitude fail to do things, fearing that they'd fail or they can't begin it properly. I firmly believe that there is no perfect beginnings. We all learn as we ... learn. 
