@@ -22,7 +22,7 @@ Start Date | Finish Date | Book Name | Author | Reader |
 20/01/2023 | 27/01/2023 | Harry Potter and the Philosopher’s Stone | J.K. Rowling | Kiran |
 22/01/2023 | 22/01/2023 | Diary of Wimpy Kid : Diper Överlöde | Jeff Kinney | Dhruv |
 23/01/2023 | 02/02/2023 | The Worry Website | Jaqueline Wilson | Dhruv |
-25/01/2023 |  | The Mystery of the Meanest Teacher | Ryan North | Dhruv |
+~~25/01/2023~~ |  | ~~The Mystery of the Meanest Teacher~~ | ~~Ryan North~~ | ~~Dhruv~~ |
 27/01/2023 | 08/02/2023 | Harry Potter and the Chamber of Secrets | J.K. Rowling | Kiran |
 06/02/2023 |  | Harry Potter and the Chamber of Secrets | J.K. Rowling | Dhruv |
 09/02/2023 |  | Harry Potter and the Prisoner of Azkaban | J.K. Rowing | Kiran |
