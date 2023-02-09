@@ -26,3 +26,4 @@ Start Date | Finish Date | Book Name | Author | Reader |
 27/01/2023 | 08/02/2023 | Harry Potter and the Chamber of Secrets | J.K. Rowling | Kiran |
 06/02/2023 |  | Harry Potter and the Chamber of Secrets | J.K. Rowling | Dhruv |
 09/02/2023 |  | Harry Potter and the Prisoner of Azkaban | J.K. Rowing | Kiran |
+09/02/2023 | 09/02/2023 | Hilo: The Great Big Boom | Judd Winick | Dhruv |
