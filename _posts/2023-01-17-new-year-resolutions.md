@@ -3,7 +3,6 @@ layout: post
 tags: banter
 cat: post
 date: 2023-01-17
-description: This isn't new. I, or perhaps we all, pick some new year resolutions, towards the end of every year. Working on  them isn't as easy as they are picked. It took lot many years for me to get this wisdom 😁
 ---
 ## New Year Resolutions
 This isn't new. I, or perhaps we all, pick some new year resolutions, towards the end of every year. Working on  them isn't as easy as they are picked. It took lot many years for me to get this wisdom 😁. 
