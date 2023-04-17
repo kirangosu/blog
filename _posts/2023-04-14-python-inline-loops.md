@@ -65,6 +65,7 @@ print(f'{result}\n')
 ```python
 [True, True, True, False, True]
 ```
+
 ----
 
 ```Inline looping```
