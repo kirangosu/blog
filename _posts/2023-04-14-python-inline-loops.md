@@ -44,6 +44,8 @@ result = [True if (x + extraCandies) >= max(candies) else False for x in candies
 
 But, I was wondering on all the options that we could try and thats how this post evolved.
 
+* TOC
+{:toc}
 ----
 ## Traditional way of looping
 
