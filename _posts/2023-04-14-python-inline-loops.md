@@ -43,7 +43,7 @@ result = [True if (x + extraCandies) >= max(candies) else False for x in candies
 But, I was wondering on all the options that we could try and thats how this post evolved.
 
 ----
-```Traditional way of looping```
+## Traditional way of looping
 
 ```python
 candies = [2, 3, 5, 1, 3]
