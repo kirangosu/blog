@@ -58,11 +58,8 @@ for c in candies:
         result.append(False)
 
 print(f'{result}\n')
-
 ```
-
-```Output```
-
+Output
 ```
 [True, True, True, False, True]
 ```
@@ -84,6 +81,7 @@ print(f'{result}\n')
 ```
 [True, True, True, False, True]
 ```
+
 ----
 
 <br>
