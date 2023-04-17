@@ -11,7 +11,7 @@ One of my teammates threw this challenge today.
 The challenge is simple and is as follows:
 
 
-There are ```n``` kids with candies. You are given an integer array ```candies```, where each ```candies[i]``` represents the number of candies the ```i```<sup>```th```</sup> kid has, and an integer ```extraCandies```, denoting the number of extra candies that you have.
+There are ```n``` kids with candies. You are given an integer array ```candies```, where each ```candies[i]``` represents the number of candies the ```i<sup>th</sup>``` kid has, and an integer ```extraCandies```, denoting the number of extra candies that you have.
 
 Return _a boolean array_ ```result``` of length ```n```, where ```result[i]``` is ```True``` if, after giving the ```i```<sup>```th```</sup> kid all the ```extraCandies```, they will have the **greatest** number of candies among all the kids, or ```False``` otherwise
 
