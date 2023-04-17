@@ -17,19 +17,18 @@ Return _a boolean array_ ```result``` of length ```n```, where ```result[i]``` i
 
 ----
 - Example 1:
-    -   ```Input```:
+    -   ```Input:```
         -   ```candies = [2, 3, 5, 1, 3]```
         -   ```extraCandies = 3```
-    -   ```Output```:
+    -   ```Output:```
         -   ```result = [True, True, True, False, True]```
 
 - Example 2:
-    -   ```Input```:
+    -   ```Input:```
         -   ```candies = [4, 2, 1, 1, 2]```
         -   ```extraCandies = 1```
-    -   ```Output```:
+    -   ```Output:```
         -   ```result = [True, False, False, False, False]```
-'''
 
 ----
 
@@ -44,6 +43,7 @@ result = [True if (x + extraCandies) >= max(candies) else False for x in candies
 
 But, I was wondering on all the options that we could try and thats how this post evolved.
 
+Table of contents:
 * TOC
 {:toc}
 ----
@@ -121,7 +121,7 @@ Output
 <br>
 
 
-## Inline looping over the list of dictionaries and its underling data - nested inline
+## Inline looping over the List of Dictionaries and its underling data - nested inline
 
 ```python
 
