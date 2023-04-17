@@ -63,12 +63,14 @@ print(f'{result}\n')
 ```Output```
 
 ```python
+
 [True, True, True, False, True]
+
 ```
 
 ----
 
-```Inline looping```
+## Inline looping
 
 ```python
 result = [True if (x + extraCandies) >= max(candies) else False for x in candies]
@@ -79,7 +81,9 @@ print(f'{result}\n')
 ```Output```
 
 ```python
+
 [True, True, True, False, True]
+
 ```
 ----
 
@@ -91,7 +95,8 @@ because, we have different ```extraCandies``` for both the examples, so we need 
 <br>
 
 ----
-```Traditional looping over List of Dictionaries and Inline looping over each item```
+
+## Traditional looping over List of Dictionaries and Inline looping over each item
 
 ```python
 candyDict = [
@@ -109,6 +114,7 @@ for cd in candyDict:
 ```Output```
 
 ```python
+
 [True, True, True, False, True]
 [True, False, False, False, False]
 
@@ -116,7 +122,8 @@ for cd in candyDict:
 ----
 <br>
 
-```Inline looping over the list of dictionaries and its underling data - nested inline```
+
+## Inline looping over the list of dictionaries and its underling data - nested inline
 
 ```python
 result = [[True if c + cd['extraCandies'] >= max(cd['candies']) else False for c in cd['candies']] for cd in candyDict]
@@ -125,16 +132,19 @@ result = [[True if c + cd['extraCandies'] >= max(cd['candies']) else False for c
 ```Output```
 
 ```python
+
 [[True, True, True, False, True],
  [True, False, False, False, False]
 ]
+
 ```
 
 ----
 Until now, the output is a ```list```. But we do not know which result refers to which set of data. To get that, we need our result as ```dictionary```. So, we've added key to the input and the same key will be part of the result
 
 ----
-```Inline looping of dictionaries and its underling data, returning key value pair for each result```
+
+## Inline looping of dictionaries and its underling data, returning key value pair for each result
 
 ```python
 candyDict = [
@@ -153,14 +163,16 @@ result = [[{cd['id']: True if c + cd['extraCandies'] >= max(cd['candies']) else 
 ```Output```
 
 ```python
+
 [[{'one': True}, {'one': True}, {'one': True}, {'one': False}, {'one': True}], [{'two': True},
   {'two': False}, {'two': False}, {'two': False}, {'two': False}
 ]]
+
 ```
 
 ----
 
-```Inline looping of dictionaries and its underlying data, returning key value per result set```
+## Inline looping of dictionaries and its underlying data, returning key value per result set
 
 ```python
 result = [{cd['id']: [True if c + cd['extraCandies'] >= max(cd['candies']) else False for c in cd['candies']]} for cd in candyDict]
@@ -169,9 +181,11 @@ result = [{cd['id']: [True if c + cd['extraCandies'] >= max(cd['candies']) else 
 ```Output```
 
 ```python
+
 [{'one': [True, True, True, False, True]},
  {'two': [True, False, False, False, False]}
 ]
+
 ```
 
 You can see the same code [here](https://github.com/kirankumargosu/python/blob/main/inline-loop.py).
