@@ -7,16 +7,17 @@ description: I was introduced to electronics accidentally by my dad at the age o
 ---
 ## Enter Electronics
 
-I was three when I could not talk properly. The school denied admission, forcing me to sit at home. In few months from there, I apparently started talking a lot. I always had questions. I remember my parents telling me that I have a mechanical brain - the right word is Engineering brain.
+I was three when I could not talk properly. The school denied admission, forcing me to sit at home. In few months from there, I apparently started talking a lot. I always had questions. I must be a pain. 
 
-Couple of years later. 
 
-I was 6 years old. My dad, had a book called Transistors - he got that book assuming that it is about Transistor Radio. He thought he'd fix things by reading the book. It didn't help him. It helped me, mmm, not exactly, but I started reading that book.
+Few years later. 
+
+I was 6 years old. And I was an average student. My academics were always in the 80 percentile of the bell curve - so I was invisible. And for an introvert like me, it was convienient. This bought me all the time. My dad had a book called Transistors - he purchased that book assuming that it is about Transistor Radio. He apparently thought that he'd fix things by reading the book. It didn't help him, so the book naturally came to me. I had no clue what the book said. All I saw were pictures of circuits. I always thought, to make this circuit, we need a metal string and bend them the way it is shown in the image. Funny me. :)
 
 Couple of years later.
 
-8 years old. The flash torch in our home broke. My dad was sad. But, I was happy, extremly happy. That is because, I now have access to a bulb and three A batteries. All I need now is a wire to connect to see if I can make the bulb glow. Long story short - the bulb was glowing; and I had a wide grin.
+8 years old, is when I think I can consider myself a little hands-on. Ahem, that's a big word isn't it. The flash torch in our home broke, making my dad upset. Now, change the focus, my dad is blurred and you'd see me in the background with an evil grin. I was happy because the torch is all mine. I harvested the bulb and the batteries. If you think about it, Flash torch is one of the biggest invetions of mankind. They use the body as the conductor to close the circuit - you see what I mean? Now, I had a project - again a big word. I wanted to see the bulb glow. And all I need is a wire - long story short - the bulb started to glow after a week's hunt.
 
-Coupld of years later.
+Couple of years later.
 
 10 years old. We started learning Physics, we learnt about electrons, potential difference, magnetic field, electromagnetism. And our physics book had an experiment with step by step procedure to make an electrical door bell. I felt like the world is waiting for me to work on a mission.
