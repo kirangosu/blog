@@ -75,9 +75,7 @@ print('Inline looping over a list:')
 print(f'{result}\n')
 
 ```
-
-```Output```
-
+Output
 ```
 [True, True, True, False, True]
 ```
@@ -107,9 +105,7 @@ for cd in candyDict:
     result = [True if (x + cd['extraCandies']) >= max(cd['candies']) else False for x in cd['candies']]
     print(f'{result}')
 ```
-
-```Output```
-
+Output
 ```
 [True, True, True, False, True]
 [True, False, False, False, False]
@@ -124,9 +120,7 @@ for cd in candyDict:
 ```python
 result = [[True if c + cd['extraCandies'] >= max(cd['candies']) else False for c in cd['candies']] for cd in candyDict]
 ```
-
-```Output```
-
+Output
 ```
 [[True, True, True, False, True],
  [True, False, False, False, False]
@@ -154,9 +148,7 @@ candyDict = [
 
 result = [[{cd['id']: True if c + cd['extraCandies'] >= max(cd['candies']) else False} for c in cd['candies']] for cd in candyDict]
 ```
-
-```Output```
-
+Output
 ```
 [[{'one': True}, {'one': True}, {'one': True}, {'one': False}, {'one': True}], [{'two': True},
   {'two': False}, {'two': False}, {'two': False}, {'two': False}
@@ -171,9 +163,7 @@ result = [[{cd['id']: True if c + cd['extraCandies'] >= max(cd['candies']) else 
 ```python
 result = [{cd['id']: [True if c + cd['extraCandies'] >= max(cd['candies']) else False for c in cd['candies']]} for cd in candyDict]
 ```
-
-```Output```
-
+Output
 ```
 [{'one': [True, True, True, False, True]},
  {'two': [True, False, False, False, False]}
