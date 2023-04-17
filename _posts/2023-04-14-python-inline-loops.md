@@ -46,6 +46,7 @@ But, I was wondering on all the options that we could try and thats how this pos
 ## Traditional way of looping
 
 ```python
+
 candies = [2, 3, 5, 1, 3]
 extraCandies = 3
 result = []
@@ -56,16 +57,14 @@ for c in candies:
     else:
         result.append(False)
 
-print('Traditional way of iterating through the list:')
 print(f'{result}\n')
+
 ```
 
 ```Output```
 
-```python
-
+```
 [True, True, True, False, True]
-
 ```
 
 ----
@@ -73,17 +72,17 @@ print(f'{result}\n')
 ## Inline looping
 
 ```python
+
 result = [True if (x + extraCandies) >= max(candies) else False for x in candies]
 print('Inline looping over a list:')
 print(f'{result}\n')
+
 ```
 
 ```Output```
 
-```python
-
+```
 [True, True, True, False, True]
-
 ```
 ----
 
@@ -113,8 +112,7 @@ for cd in candyDict:
 
 ```Output```
 
-```python
-
+```
 [True, True, True, False, True]
 [True, False, False, False, False]
 
@@ -131,8 +129,7 @@ result = [[True if c + cd['extraCandies'] >= max(cd['candies']) else False for c
 
 ```Output```
 
-```python
-
+```
 [[True, True, True, False, True],
  [True, False, False, False, False]
 ]
@@ -162,8 +159,7 @@ result = [[{cd['id']: True if c + cd['extraCandies'] >= max(cd['candies']) else 
 
 ```Output```
 
-```python
-
+```
 [[{'one': True}, {'one': True}, {'one': True}, {'one': False}, {'one': True}], [{'two': True},
   {'two': False}, {'two': False}, {'two': False}, {'two': False}
 ]]
@@ -180,8 +176,7 @@ result = [{cd['id']: [True if c + cd['extraCandies'] >= max(cd['candies']) else 
 
 ```Output```
 
-```python
-
+```
 [{'one': [True, True, True, False, True]},
  {'two': [True, False, False, False, False]}
 ]
