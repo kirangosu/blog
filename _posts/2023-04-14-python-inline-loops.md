@@ -59,12 +59,16 @@ for c in candies:
 print('Traditional way of iterating through the list:')
 print(f'{result}\n')
 ```
+
 ```Output```
+
 ```python
 [True, True, True, False, True]
 ```
 ----
+
 ```Inline looping```
+
 ```python
 result = [True if (x + extraCandies) >= max(candies) else False for x in candies]
 print('Inline looping over a list:')
@@ -72,6 +76,7 @@ print(f'{result}\n')
 ```
 
 ```Output```
+
 ```python
 [True, True, True, False, True]
 ```
@@ -99,7 +104,9 @@ for cd in candyDict:
     result = [True if (x + cd['extraCandies']) >= max(cd['candies']) else False for x in cd['candies']]
     print(f'{result}')
 ```
+
 ```Output```
+
 ```python
 [True, True, True, False, True]
 [True, False, False, False, False]
@@ -113,7 +120,9 @@ for cd in candyDict:
 ```python
 result = [[True if c + cd['extraCandies'] >= max(cd['candies']) else False for c in cd['candies']] for cd in candyDict]
 ```
+
 ```Output```
+
 ```python
 [[True, True, True, False, True],
  [True, False, False, False, False]
@@ -125,6 +134,7 @@ Until now, the output is a ```list```. But we do not know which result refers to
 
 ----
 ```Inline looping of dictionaries and its underling data, returning key value pair for each result```
+
 ```python
 candyDict = [
     {'id' : 'one',
@@ -138,7 +148,9 @@ candyDict = [
 
 result = [[{cd['id']: True if c + cd['extraCandies'] >= max(cd['candies']) else False} for c in cd['candies']] for cd in candyDict]
 ```
+
 ```Output```
+
 ```python
 [[{'one': True}, {'one': True}, {'one': True}, {'one': False}, {'one': True}], [{'two': True},
   {'two': False}, {'two': False}, {'two': False}, {'two': False}
@@ -148,10 +160,13 @@ result = [[{cd['id']: True if c + cd['extraCandies'] >= max(cd['candies']) else 
 ----
 
 ```Inline looping of dictionaries and its underlying data, returning key value per result set```
+
 ```python
 result = [{cd['id']: [True if c + cd['extraCandies'] >= max(cd['candies']) else False for c in cd['candies']]} for cd in candyDict]
 ```
+
 ```Output```
+
 ```python
 [{'one': [True, True, True, False, True]},
  {'two': [True, False, False, False, False]}
