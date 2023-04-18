@@ -5,7 +5,7 @@ description: Son vs. Dad
 order: 20
 ---
 
-Dhruv and I planned to take up reading challenge this year, 2023. As part of the challenge, Dhruv told me that he could read two books in a month, and hence 24 books in a year. And to round it, he agreed to read 25 books this year. On the otherhand, me, not as avid reader as him, decided to take up 10 books. The challenge started on 01-Jan-2023 and below are the books we have read or currently reading.
+Dhruv and I planned to take up reading challenge this year, 2023. As part of the challenge, Dhruv told me that he could read two books in a month, and hence 24 books in a year. And to round it, he agreed to read 25 books this year. On the other hand, me, not as avid reader as him, decided to take up 10 books. The challenge started on 01-Jan-2023 and below are the books we have read or currently reading.
 
 <hr/>
 
