@@ -24,6 +24,10 @@ Start Date | Finish Date | Book Name | Author | Reader |
 23/01/2023 | 02/02/2023 | The Worry Website | Jaqueline Wilson | Dhruv |
 ~~25/01/2023~~ |  | ~~The Mystery of the Meanest Teacher~~ | ~~Ryan North~~ | ~~Dhruv~~ |
 27/01/2023 | 08/02/2023 | Harry Potter and the Chamber of Secrets | J.K. Rowling | Kiran |
+02/02/2023 | 10/02/2023 | Cloud Busting | Malorie Blackman | Dhruv |
 06/02/2023 |  | Harry Potter and the Chamber of Secrets | J.K. Rowling | Dhruv |
 09/02/2023 |  | Harry Potter and the Prisoner of Azkaban | J.K. Rowing | Kiran |
 09/02/2023 | 09/02/2023 | Hilo: The Great Big Boom | Judd Winick | Dhruv |
+27/02/2023 | 14/03/2023 | The Accidental Prime Minister | Tom McLaughlin | Dhruv |
+14/03/2023 | 30/03/2023 | The Bolds on Holiday | Julian Clary | Dhruv
+24/03/2023 | 18/04/2023 | The Accidental Prime Minister Returns | Tom McLaughlin | Dhruv |
