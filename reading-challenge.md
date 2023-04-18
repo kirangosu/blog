@@ -10,7 +10,7 @@ Dhruv and I planned to take up reading challenge this year, 2023. As part of the
 <hr/>
 
 Start Date | Finish Date | Book Name | Author | Reader |
---- | --- | --- | --- |--- |
+--- | --- | --- | --- | --- |
 01/01/2023 | 28/01/2023 | Harry Potter and the Philosopher’s Stone | J.K. Rowling | Dhruv |
 01/01/2023 | 01/02/2023 | A Really Short History of Nearly Everything | Bill Bryson | Dhruv |
 01/01/2023 | 19/01/2023 |George and the ship of time | Lucy Hawking | Kiran |
@@ -28,6 +28,7 @@ Start Date | Finish Date | Book Name | Author | Reader |
 06/02/2023 |  | Harry Potter and the Chamber of Secrets | J.K. Rowling | Dhruv |
 09/02/2023 |  | Harry Potter and the Prisoner of Azkaban | J.K. Rowing | Kiran |
 09/02/2023 | 09/02/2023 | Hilo: The Great Big Boom | Judd Winick | Dhruv |
+12/02/2023 | 12/02/2023 | The Puffin Keeper | Michael Morpurgo | Dhruv |
 27/02/2023 | 14/03/2023 | The Accidental Prime Minister | Tom McLaughlin | Dhruv |
 14/03/2023 | 30/03/2023 | The Bolds on Holiday | Julian Clary | Dhruv
 24/03/2023 | 18/04/2023 | The Accidental Prime Minister Returns | Tom McLaughlin | Dhruv |
