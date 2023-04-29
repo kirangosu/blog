@@ -10,7 +10,7 @@ In my free time, I learn new programming languages and practice them. I also wor
 
 I teach coding to the kids in my local library as part of Coder Dojo.
 
-Gardening is one of my hobbies that keeps me busy most of the summer. I also cook new, we at least new to me and my family, cuisine. 
+Gardening is one of my hobbies that keeps me busy most of the summer. I also cook something that's new, well at least new to me and my family. 
 
 I watch cricket and also play for a local club in Essex.
 
