@@ -7,7 +7,7 @@ description: I was introduced to electronics accidentally by my dad at the age o
 ---
 ## Enter Electronics
 
-I was three when I could not talk properly. The school denied admission, forcing me to sit at home. In few months from there, I apparently started talking a lot. I always had questions. I must be a pain. 
+I was three when I could not talk properly. The school denied admission, forcing me to sit at home. Within few months from there, I apparently started talking a lot. I always had questions. I must be a pain. 
 
 
 Few years later. 
