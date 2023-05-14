@@ -7,7 +7,7 @@ description: One of my teammates threw this python challenge. Read more
 ---
 
 Yet another new challenge from the team. The ask is simple.
-Given a positive integer ```n```. generate an ```n x n``` matrix filled with elements from ```1``` to ```n^2``` in spiral order
+Given a positive integer ```n```, generate an ```n x n``` matrix filled with elements from ```1``` to ```n^2``` in spiral order
 
 Examples are below
   
