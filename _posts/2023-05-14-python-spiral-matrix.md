@@ -30,6 +30,7 @@ It was interesting and I did write some piece of code in python. However the cod
 
 If you could find a better way, please do let me know!
 
+You can see the same code [here](https://github.com/kirankumargosu/python/blob/main/spiral.py).
+
 Thanks.
 
-https://github.com/kirankumargosu/python/blob/main/spiral.py#L1-L66
