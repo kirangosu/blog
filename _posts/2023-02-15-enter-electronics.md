@@ -1,6 +1,6 @@
 ---
 layout: post
-tags: nerd, electronics, programming, microcontroller, raspberry
+tags: nerd, electronics, programming, microcontroller, raspberry, pico
 cat: post
 date: 2023-02-15
 description: I was introduced to electronics accidentally by my dad at the age of 2. Read more
