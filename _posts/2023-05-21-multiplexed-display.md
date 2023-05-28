@@ -1,6 +1,6 @@
 ---
 layout: post
-tags: nerd electronics programming microcontroller raspberry pico ssd "seven segment display" multiplexing
+tags: nerd electronics programming microcontroller raspberry pico ssd multiplexing
 cat: post
 date: 2023-05-21
 description: How does a seven segment display work?
