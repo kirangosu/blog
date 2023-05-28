@@ -1,7 +1,7 @@
 ---
 layout: post
 tags: nerd, programming, python
-cat: post
+cat: post python programming nerd
 date: 2023-04-17
 description: One of my teammates threw this python challenge. Read more
 ---
