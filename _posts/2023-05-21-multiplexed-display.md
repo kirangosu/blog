@@ -11,7 +11,7 @@ You must have noticed this in movies or any other recorded videos - if the recor
 First some basics.
 A seven segment display (SSD), as the name indicates it has 7 segments, like below. For our understanding, I've marked them with alphabets. Each segment is a diode. 
 
-```
+```text
                                    
                      (a)
                     -----
@@ -29,7 +29,7 @@ Now, you might ask, what is the problem. To understand the problem, lets learn a
 A diode, as we know, passes current in one direction - and this is the feature that we find most useful in most of the circuits and we see today. A diode is symbolized as below.
 
 
-```
+```text
 
                        |\  |
             anode (+)  | \ | cathode (-)
@@ -47,7 +47,7 @@ A SSD will have 8 pins, 7 anodes, one for each diode and 1 common cathode.
 
 So, if we have to make a 1, then we connect the anodes of `b` and `c` to the positive supply and connect the only one common cathode to the negative.
 
-```
+```text
                           (a)
                _____/ __________|\|_______
               |                 |/|       |
@@ -80,7 +80,7 @@ So, if we have to make a 1, then we connect the anodes of `b` and `c` to the pos
 ```
 
 The output would be something like below:
-```
+```text
                                              
                          |
                          | (b)
@@ -92,7 +92,7 @@ The output would be something like below:
 
 Similarly, for a 2, we connect the anodes of `a`, `b`, `g`, `e` and `d` to Vcc and then connect the cathode to Gnd.
 
-```
+```text
                           (a)
                _____--__________|\|_______
               |                 |/|       |
@@ -126,7 +126,7 @@ Similarly, for a 2, we connect the anodes of `a`, `b`, `g`, `e` and `d` to Vcc a
 
 The output would be like this.
 
-```
+```text
 
                       (a)
                      -----
@@ -146,7 +146,7 @@ So, what is the problem, you ask? Well, there isn't any. Yes, there is no proble
 
 Let us take a 2 SSDs together to explain the problem - it would be something like below:
 
-```
+```text
                   (a)              (a)        
                  -----            -----      
                 |     |          |     |     
