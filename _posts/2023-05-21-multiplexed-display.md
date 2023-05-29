@@ -45,99 +45,80 @@ To make a LED ON, we connect the positive terminal of the power supply to the an
 
 A SSD will have 8 pins, 7 anodes, one for each diode and 1 common cathode.
 
-So, if we have to make a 1, then we connect the anodes of `b` and `c` to the positive supply and connect the only one common cathode to the negative.
+So, if we have to make a `1`, then we connect the anodes of `b` and `c` to the positive supply and connect the only one common cathode to the negative.
 
 ```text
-                          (a)
-               _____/ __________|\|_______
-              |                 |/|       |
-              |                           |
-              |           (b)             |
-              |_____--__________|\|_______|
-              |                 |/|       |
-              |                           |
-              |           (c)             |
-              |_____--__________|\|_______|
-              |                 |/|       |
-              |                           |
-              |           (d)             |
-     _________|_____/ __________|\|_______|_______
-    Vcc       |                 |/|       |       |
-    (+)       |                           |     -----
-              |           (e)             |      ---  Gnd
-              |_____/ __________|\|_______|       -   (-)
-              |                 |/|       |
-              |                           |
-              |           (f)             |
-              |_____/ __________|\|_______|
-              |                 |/|       |
-              |                           |
-              |           (g)             |
-              |_____/ __________|\|_______|
-                                |/|
+
+                     Circuit  
+
+
+                            (a)
+               _____/ ______|\|_______
+              |             |/|       |
+              |                       |
+              |             (b)       |
+              |_____--______|\|_______|
+              |             |/|       |
+              |                       |
+              |             (c)       |                          Output
+              |_____--______|\|_______|          
+              |             |/|       |                             |    
+              |                       |                             |  (b)
+              |             (d)       |                              
+     _________|_____/ ______|\|_______|_______                      |
+    Vcc       |             |/|       |       |                     |  (c)
+    (+)       |                       |     -----        
+              |             (e)       |      ---  Gnd
+              |_____/ ______|\|_______|       -   (-)
+              |             |/|       |
+              |                       |
+              |             (f)       |
+              |_____/ ______|\|_______|
+              |             |/|       |
+              |                       |
+              |             (g)       |
+              |_____/ ______|\|_______|
+                            |/|
+     
+
+```                                  
+
+Similarly, for a `2`, we connect the anodes of `a`, `b`, `g`, `e` and `d` to Vcc and then connect the cathode to Gnd.
+
+```text
+
+                     Circuit  
+
+                            (a)
+               _____--______|\|_______
+              |             |/|       |
+              |                       |
+              |             (b)       |
+              |_____--______|\|_______|
+              |             |/|       |
+              |                       |
+              |             (c)       |                           Output
+              |_____/ ______|\|_______|                            (a)
+              |             |/|       |                           -----
+              |                       |                                |
+              |             (d)       |                            (g) | (b)
+     _________|_____--______|\|_______|_______                    ----- 
+    Vcc       |             |/|       |       |                  |
+    (+)       |                       |     -----            (e) |
+              |             (e)       |      ---  Gnd             -----
+              |_____--______|\|_______|       -   (-)              (d)
+              |             |/|       |
+              |                       |
+              |             (f)       |
+              |_____/ ______|\|_______|
+              |             |/|       |
+              |                       |
+              |             (g)       |
+              |_____--______|\|_______|
+                            |/|
      
 
 ```
-
-The output would be something like below:
-```text
-                                             
-                         |
-                         | (b)
-                         
-                         |
-                         | (c)
-                         
-```                                             
-
-Similarly, for a 2, we connect the anodes of `a`, `b`, `g`, `e` and `d` to Vcc and then connect the cathode to Gnd.
-
-```text
-                          (a)
-               _____--__________|\|_______
-              |                 |/|       |
-              |                           |
-              |           (b)             |
-              |_____--__________|\|_______|
-              |                 |/|       |
-              |                           |
-              |           (c)             |
-              |_____/ __________|\|_______|
-              |                 |/|       |
-              |                           |
-              |           (d)             |
-     _________|_____--__________|\|_______|_______
-    Vcc       |                 |/|       |       |
-    (+)       |                           |     -----
-              |           (e)             |      ---  Gnd
-              |_____--__________|\|_______|       -   (-)
-              |                 |/|       |
-              |                           |
-              |           (f)             |
-              |_____/ __________|\|_______|
-              |                 |/|       |
-              |                           |
-              |           (g)             |
-              |_____--__________|\|_______|
-                                |/|
-     
-
-```
-
-The output would be like this.
-
-```text
-
-                      (a)
-                     -----
-                          |
-                      (g) | (b)
-                     -----
-                    |
-                (e) |
-                     -----
-                      (d)
-```                                         
 
 And so on.
 
@@ -147,15 +128,91 @@ So, what is the problem, you ask? Well, there isn't any. Yes, there is no proble
 Let us take a 2 SSDs together to explain the problem - it would be something like below:
 
 ```text
-                  (a)              (a)        
-                 -----            -----      
-                |     |          |     |     
-            (f) | (g) | (b)  (f) | (g) | (b) 
-                 -----            -----      
-                |     |          |     |     
-            (e) |     | (c)  (e) |     | (c) 
-                 -----            -----      
-                  (d)              (d)       
+                  (a)                   (a)        
+                 -----                 -----      
+                |     |               |     |     
+            (f) | (g) | (b)       (f) | (g) | (b) 
+                 -----                 -----      
+                |     |               |     |     
+            (e) |     | (c)       (e) |     | (c) 
+                 -----                 -----      
+                  (d)                   (d)       
+         
+               digit -  1            digit - 2
+
 ```
 
-To be continued...
+In this case, the anodes of `a` of both the digits are interconnected. Similarly, every segment of each digit is interconnected to the corresponding segment of the other digit. But each digit has its own cathode. It would be something like below.
+
+```text
+                                                    (a)
+               _____/ ______________________________|\|_______
+              |         |                           |/|       |
+              |         |                                     |
+              |         |                           (b)       |
+              |_____/ __c___________________________|\|_______|
+              |         |   |                       |/|       |
+              |         |   |                                 |
+              |         |   |                       (c)       |
+              |_____/ __c___c_______________________|\|_______|
+              |         |   |   |                   |/|       |
+              |         |   |   |                             |
+              |         |   |   |                   (d)       |
+     _________|_____/ __c___c___c___________________|\|_______|_______
+    Vcc       |         |   |   |   |               |/|       |       |
+    (+)       |         |   |   |   |                         |     -----
+              |         |   |   |   |               (e)       |      ---  Gnd
+              |_____/ __c___c___c___c_______________|\|_______|       -   (-)
+              |         |   |   |   |   |           |/|       |
+              |         |   |   |   |   |                     |
+              |         |   |   |   |   |           (f)       |
+              |_____/ __c___c___c___c___c___________|\|_______|
+              |         |   |   |   |   |   |       |/|       |
+              |         |   |   |   |   |   |                 |
+              |         |   |   |   |   |   |       (g)       |
+              |_____/ __c___c___c___c___c___c_______|\|_______|
+                        |   |   |   |   |   |   |   |/|
+                        |   |   |   |   |   |   |
+                        |   |   |   |   |   |   |
+                        |   |   |   |   |   |   |
+                        |   |   |   |   |   |   |
+                        |   |   |   |   |   |   |   (a)
+                        |___c___c___c___c___c___c___|\|_______
+                            |   |   |   |   |   |   |/|       |
+                            |   |   |   |   |   |             |
+                            |   |   |   |   |   |   (b)       |
+                            |___c___c___c___c___c___|\|_______|
+                                |   |   |   |   |   |/|       |
+                                |   |   |   |   |             |
+                                |   |   |   |   |   (c)       |
+                                |___c___c___c___c___|\|_______|
+                                    |   |   |   |   |/|       |
+                                    |   |   |   |             |
+                                    |   |   |   |   (d)       |
+                                    |___c___c___c___|\|_______|_______
+                                        |   |   |   |/|       |       |
+                                        |   |   |             |     -----
+                                        |   |   |   (e)       |      ---  Gnd
+                                        |___c___c___|\|_______|       -   (-)
+                                            |   |   |/|       |
+                                            |   |             |
+                                            |   |   (f)       |
+                                            |___c___|\|_______|
+                                                |   |/|       |
+                                                |             |
+                                                |   (g)       |
+                                                |___|\|_______|
+                                                    |/|
+       
+
+
+
+```
+
+Ok, we are close to the problem now. Let us say, we want to display `21`, then we need to connect the anodes of `a`, `b`, `g`, `e` and `d` of the digit - 1 to positive and the anodes of `b` and `c` of digit - 2 to positive. However, the anodes corresponding segment of both the digits are interconnected. So the only possibility is to show `22` or `11`. In short, we will be able to show the same content in each digit. You get the problem? Yeah, that, precisely is the problem.
+
+I'd recommend think of the potential solution. And if you find the solution, please do let me know.
+
+I will publish the solution in my next post.
+
+Thanks.
