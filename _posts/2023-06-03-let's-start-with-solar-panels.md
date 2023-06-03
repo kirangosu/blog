@@ -17,6 +17,9 @@ I listed down the components required to make a diy project. In short we need ju
 So I ordered a solar panel from Ali Express and I got it in 2 weeks. We had an Easter trea at home, consuming 4.5v (3 x 1.5v) batteries. When I checked the voltage from the solar panel, I noticed it was producing over 3.8v, so not bad, isn't it?
 
 ![image tooltip here](/blog/assets/img/SolarPanel_01.jpeg width=200)
+
+<img src="/blog/assets/img/SolarPanel_01.jpeg" width="30%"/>
+
 I quickly opened up the Easter tree circuit, removed the batteries and connected the Solar Panel leads to the corresponding terminals and voila...
 
 Mission Unlocked. Well not really. If you notice there is no charging module in this entire episode. Yeah, we are not charging batteries, instead we are using the current produced directly from the solar panel. And that means, the LEDs are ON when there is sunlight and OFF when it is most required :)
