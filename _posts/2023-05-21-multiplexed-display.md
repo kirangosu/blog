@@ -6,7 +6,13 @@ date: 2023-05-21
 description: How does a seven segment display work?
 ---
 
-You must have noticed this in movies or any other recorded videos - if the recorded video displays seven segment displays they always flicker. Have you ever wondered why? The answer to that is multiplexed display. And if you would like to know more, please read ahead.
+You must have noticed this in movies or any other recorded videos - if the recorded video displays seven segment displays they always flicker. 
+
+<p style="text-align:center;"> 
+    <video src="/blog/assets/videos/MultiplexedDisplay.mov" controls="controls" width="50%"></video>
+</p>
+
+Have you ever wondered why? The answer to that is multiplexed display. And if you would like to know more, please read ahead.
 
 First some basics.
 A seven segment display (SSD), as the name indicates it has 7 segments, like below. For our understanding, I've marked them with alphabets. Each segment is a diode. 
