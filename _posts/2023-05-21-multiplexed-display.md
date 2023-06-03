@@ -9,7 +9,7 @@ description: How does a seven segment display work?
 You must have noticed this in movies or any other recorded videos - if the recorded video displays seven segment displays they always flicker. 
 
 <p style="text-align:center;"> 
-    <video src="/blog/assets/videos/MultiplexedDisplay.mov" controls="controls" width="50%"></video>
+    <video src="/blog/assets/videos/MultiplexedDisplay.mov" controls="controls" width="75%"></video>
 </p>
 
 Have you ever wondered why? The answer to that is multiplexed display. And if you would like to know more, please read ahead.
