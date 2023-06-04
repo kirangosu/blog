@@ -6,7 +6,7 @@ date: 2023-06-03
 description: How do we begin with solar panels
 ---
 
-This is one of my new year [resolutions](/blog/2023/01/17/new-year-resolutions.html)- make a lamp work with a solar panel.
+This is one of my new year [resolutions](/blog/2023/01/17/new-year-resolutions.html) - to make a lamp work with a solar panel.
 
 So, for the past few weeks, I was pondering on where to start with. Loads of websites and tonnes of information, each one with varying subtly. Well everything is right, but not everything works for us,do they? I was a little perplexed on where to start. So I decided to play safe and begin minimalistic.
 
