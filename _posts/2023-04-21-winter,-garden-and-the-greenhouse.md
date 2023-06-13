@@ -3,7 +3,7 @@ layout: post
 tags: gardening
 cat: post
 date: 2023-04-21
-description: Gardening has always been my passion. This is a series to see the ebb and flow of my ci/cd in gardening
+description: How I built my own greenhouse and prepped my conservatory
 ---
 
 [Previous episode on gardening](/blog/2023/01/22/my-gardening.html)
@@ -22,6 +22,7 @@ And now to the solution. To begin with, the greenhouse is required only for the 
 
 Finally, I decided to bring in a heater inside the conservatory. I took a wifi smart switch, connected the heater to it. And then I kept a thermometer inside the greenhouse. I started monitoring the temperature and then when its cold, I used to turn on the heater using my mobile. It looked okish. How about when I am not in the house. But how about the nights? This required me to do some bit of automation.
 
-So, I designed a thermostat. Did it solve? No. 
+So, I designed a thermostat. Did it solve the problem? 
 
 Stay tuned.
+
