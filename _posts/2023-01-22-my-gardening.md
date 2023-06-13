@@ -30,3 +30,5 @@ The £40 greenhouse wasn't that bad to be honest. I used it to store my gardenin
 Nevertheless, I switched to the vegetables that do well in freezing weather. I did grow, potatoes, onions, garlic, beans and strawberries.
 
 But is that all? No, the story is quite big. I will write sometime soon.
+
+[Next episode on gardening](/blog/2023/04/21/winter,-garden-and-the-greenhouse.html)

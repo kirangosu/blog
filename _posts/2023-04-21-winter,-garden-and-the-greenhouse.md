@@ -6,6 +6,8 @@ date: 2023-04-21
 description: Gardening has always been my passion. This is a series to see the ebb and flow of my ci/cd in gardening
 ---
 
+[Previous episode on gardening](/blog/2023/01/22/my-gardening.html)
+
 I lost most of my plants, especially the Indian vegetables to the freezing weather of 2021 winter. Germinating the seeds inside the house was easy compared to making them grow and survive a year. I thought I might have to spend some time to understand the weather pattern in the UK and then accordingly prepare myself.
 
 I started reading the blogs of fellow gardeners around the area. Greenhouse was one of the major things that was required. I did have a greenhouse made of polythene wrap. This polythene greenhouse, I should say, did help. The real problem was this greenhouse is kept in our 30m garden and I hardly had any mood to insulate me to leave the house. Also, germinating the seeds and nurturing the saplings required constant monitoring. So having a greenhouse in the garden did not help.
