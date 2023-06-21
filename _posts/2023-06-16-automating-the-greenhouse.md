@@ -6,9 +6,11 @@ date: 2023-06-16
 description: How I tried automating the greenhouse in my conservatory
 ---
 
+If gardening is your passion, letting the plants die breaks you down. Especially when you buy seeds and not plants. You spend time and take extra care in germinating the seeds to begin with. While germinating is a hard process, keeping the young saplings alive is yet another major task. The job isn't done yet if you do not make them grow and produce the yield. And every phase makes you feel that the previous phase was a little easy. Yet, you don't give, if its your passion. Do you?
+
+
 [Previous episode on gardening](/blog/2023/04/21/winter,-garden-and-the-greenhouse.html)
 
-If gardening is your passion, letting the plants die breaks you down. Especially when you buy seeds and not plants. You spend time and take extra care in germinating the seeds to begin with. While germinating is a hard process, keeping the young saplings alive is yet another major task. The job isn't done yet if you do not make them grow and produce the yield. And every phase makes you feel that the previous phase was a little easy. Yet, you don't give, if its your passion. Do you?
 
 I felt really bad when I let the plants die in the first year of gardening in the UK. In my previous post, I mentioned about the miniature greenhouse that I built. I brought that into my conservatory. The conservatory being very cold during the winters, did not let the help a lot. So, the plan is to keep a heater inside this greenhouse.
 
