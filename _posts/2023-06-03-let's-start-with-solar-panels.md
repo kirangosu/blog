@@ -4,6 +4,7 @@ tags: nerd electronics solarpanel diy
 cat: post
 date: 2023-06-03
 description: How do we begin with solar panels
+pin: true
 ---
 
 This is one of my new year [resolutions](/blog/2023/01/17/new-year-resolutions.html) - to make a lamp work with a solar panel.
