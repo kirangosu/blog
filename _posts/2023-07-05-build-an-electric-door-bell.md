@@ -14,6 +14,7 @@ The physics book also had few practical purposes of this electromanget and one o
 Please have a look into the circuit below. It is the simplest form of a circuit to build an electric door bell. And this is exactly what I built when I was 12. Did it work? No it didn't. But will it work? Yes, it will. Let's read ahead.
 
 ### What we need
+
 Sr. No | What we need | What I did |
 --- | --- | --- |
 1 | A nail | A cycle wheel spoke and bent it into an U |
