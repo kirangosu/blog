@@ -13,6 +13,10 @@ The physics book also had few practical purposes of this electromanget and one o
 ## Circuit
 Please have a look into the circuit below. It is the simplest form of a circuit to build an electric door bell. And this is exactly what I built when I was 12. Did it work? No it didn't. But will it work? Yes, it will. Let's read ahead.
 
+<p style="text-align:center;"> 
+    <img src="/blog/assets/images/ElectricDoorBell.jpeg" width="80%"/> 
+</p>
+
 ### What we need
 
 Sr. No | What we need | What I did |
@@ -27,10 +31,6 @@ Sr. No | What we need | What I did |
 
 ## How does it work
 As we know, then current is flown through the coil a magentic field is created. Here the circuit starts from the battery (B) to the U shaped spoke (U), then into the vertical thin rod (R) and finally closes the circuit via the connector (C).
-
-<p style="text-align:center;"> 
-    <img src="/blog/assets/images/ElectricDoorBell.jpeg" width="80%"/> 
-</p>
 
 This is a closed circuit and creates a magnetic field which attracts the rod R towards it. In that process, it hits the gong (G). But the moment the rod is attracted towards the electromagnet, the connection between rod (R) and the connecter (C) breaks, leaving the circuit open. 
 
