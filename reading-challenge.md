@@ -32,3 +32,5 @@ Start Date | Finish Date | Book Name | Author | Reader |
 27/02/2023 | 14/03/2023 | The Accidental Prime Minister | Tom McLaughlin | Dhruv |
 14/03/2023 | 30/03/2023 | The Bolds on Holiday | Julian Clary | Dhruv
 24/03/2023 | 18/04/2023 | The Accidental Prime Minister Returns | Tom McLaughlin | Dhruv |
+... many more from Dhruv to be updated here ...
+07/08/2023 | 14/08/2023 | Taken | Lisa Stone | Kiran |

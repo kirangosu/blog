@@ -1,6 +1,6 @@
 ---
 layout: post
-tags: gardening
+tags: gardening spinach
 cat: post
 date: 2023-06-20
 description: Living with Spinach Plants
